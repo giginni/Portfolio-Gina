@@ -1,0 +1,39 @@
+
+:myvariables {
+    --primary-color: rgb(238, 194, 238);
+}
+
+    .navbar{
+        background-color: var(--primary-color);
+        display: flexbox;
+
+    }
+
+
+    .subtitle h2{
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+        color: rgb(245, 42, 42);
+        font-size: 16px;
+    }
+
+
+    .progress-bar{
+        background: #959595;
+        width: 600px;
+        height: 10px;
+        border-radius: 5px;
+    }
+
+    .progress-bar div{
+        height: 10px;
+        border-radius: 5px;
+        width: 50%;
+        background: red;
+    }
+
+    .footer{
+        background-color: var(--primary-color);
+    }
