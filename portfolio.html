@@ -23,10 +23,14 @@
       </li>
     </ul>
   </nav>
+  <header>
+    <img class="picture" src="https://integradosporelarte.files.wordpress.com/2015/06/monet_0020_nympheas.jpeg" alt="background">
+    <h1>Portfolio</h1>
+  </header>
   <hr>
   <main>
     <div class="title">
-      <h1>About me</h1>
+      <h2>About me</h2>
       <img class="picture" src="./imagen 3.jpeg" alt="Gina Manfredi">
       <p>Hi! My name is Gina, I'm from Argentina and I live in Barcelona since 2019.</p>
       <p>Lately I have discovered my passion for coding and web development after working in the hospitality industry for more than 10 years.</p>
@@ -35,19 +39,63 @@
       <p>Just started in the IT world with the Bootcamp "Mujeres in Tech" from Keepcoding school. Super excited to take this new challenge and keep developing my skills.</p>
       <p>Feel free to take a look on them and stay in touch. I want to work with you!</p>
     </div>
+    <hr>
     <div class="title">
-      <h1>My skills</h1>
+      <h2>My skills</h2>
     </div>
+    <hr>
     <div class="title">
-      <h1>Contact me</h1>
+      <h2>Contact me</h2>
     </div>
+     <form action="registro-completado.html" method="post">
+       <div>
+          <label for="name">Name</label>
+          <input required id="name" name="name" type="text" placeholder="Add your name"/>
+       </div>
+       <div>
+          <label for="Surname">Surname</label>
+          <input required id="surname" name="text" type="text" placeholder="Add your lastnames"/>
+        </div>
+        <div>
+            <label for="phone">phone</label>
+            <input type="tel" id="phone" name="phone" pattern="+34 000 000 000" placeholder="+XX XXX XXX XXX">
+        </div>
+        <div>
+          <label for="GitHub">GitHub</label>
+          <input type="regexp" id="GitHub" name="GitHub" pattern="@" placeholder="@username">
+        </div>
+        <textarea required id="message" maxlength="180" placeholder="Max 180 characters"></textarea>
+        <fieldset>
+            <legend>How did you meet me?</legend>
 
+            <label for="university">University</label>
+            <input id="uni" type="radio" name="fav">
+
+            <label for="kc">Keepcoding</label>   
+            <input id="kc" type="radio" name="fav">
+
+            <label for="school">School</label>
+            <input id="school" type="radio" name="fav">
+
+            <label for="GitHub">GitHub</label>
+            <input id="github" type="radio" name="fav">
+        </fieldset>
+        <input type="submit" value="Send message">
+      </form>
   </main>
   <hr>
    <footer class="footer white">
-     <a class="link" href="https://www.linkedin.com/in/gina-n-manfredi/" target="_blank">My LinkedIn</a>
-     <a class="link" href="https://github.com/giginni" target="_blank">My GitHub</a>
-    
+    <div>
+      <a class="link" href="https://www.linkedin.com/in/gina-n-manfredi/" target="_blank">
+      <img class="link" src="https://cdn-icons-png.flaticon.com/512/254/254394.png?w=360" alt="LinkedIn Gina Manfredi"> 
+      </a>
+    </div>
+    <div>
+      <a class="link" href="https://github.com/giginni" target="_blank">
+      <img class="link" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Gina Manfredi">  
+      </a>
+    </div>
+         
    </footer>
 
 </body>
