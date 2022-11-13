@@ -166,6 +166,9 @@ h2{
         justify-self: center;        
     }
 
+    .etiquetas-form{
+        padding: 1rem;
+    }
 
 .footer{
         background-color: var(--primary-color);
